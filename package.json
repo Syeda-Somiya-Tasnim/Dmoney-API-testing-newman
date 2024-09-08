@@ -1,0 +1,17 @@
+{
+  "name": "dmoney-users-transaction-automation-newman",
+  "version": "1.0.0",
+  "description": "## About this project: ### d-money is a demo financial related project where fake money can be transferred. In this project I have automate the d-money api using postman and newman. Here I have covered folowing tasks as login, create new user, deposit money, withdraw money, send money & payment. A Newman report has been created based on the API test results, all test cases were written manually and a bug report has been created to document any issues discovered during testing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node report.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "newman": "^6.2.1",
+    "newman-reporter-htmlextra": "^1.23.1"
+  }
+}
